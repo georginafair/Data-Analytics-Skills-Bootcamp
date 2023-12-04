@@ -1,0 +1,40 @@
+#defining values
+country = 'United Kingdom'
+language = 'English'
+capital = 'London'
+currency = 'GBP'
+population = 67886004
+area = 242495
+phone_code = '+44'
+gini = 33.1
+drive_on_right = False
+
+#Assignment questions are indicated using Q*)
+# Q1) Assign the result of `population` / `area` calculation to a new variable called `density`:
+density = population/area
+print(density)
+#returns 279.9480566609621
+
+#Q2) Select the first 3 characters of the language variable and assign it to a new variable called language_code:
+language_code = language[0:3]
+print(language_code)
+#returns Eng
+
+#Q3) Except for the first character (+ sign), select all other characters from phone_code, and assign the resulting string to a new variable called dial_code:
+dial_code = phone_code[1:]
+print(dial_code)
+#returns 44
+
+#Q5) Assign to a variable called location a string in the format of 'capital, country' e.g. 'Berlin, Germany':
+location = f"{capital}, {country}"
+location
+#returns 'London, United Kingdom'
+
+'''Q6) Your code should work with different inputs of the same type and format:
+Update population variable with 68632816
+Copy the code from Q1 to the cell below and re-run the code'''
+population = 68632816
+density = population/area
+print(density)
+#returns 283.02775727334586
+
