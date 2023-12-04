@@ -10,7 +10,7 @@ gini = 33.1
 drive_on_right = False
 
 #Assignment questions are indicated using Q*)
-# Q1) Assign the result of `population` / `area` calculation to a new variable called `density`:
+#Q1) Assign the result of `population` / `area` calculation to a new variable called `density`:
 density = population/area
 print(density)
 #returns 279.9480566609621
@@ -37,4 +37,3 @@ population = 68632816
 density = population/area
 print(density)
 #returns 283.02775727334586
-
